@@ -81,9 +81,12 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+header nav:nth-of-type(2) li:nth-of-type(2) {
+  display: none;
+}
 @media (min-width: 700px) {
-  header li a img {
-    display: none;
+  header nav:nth-of-type(2) li:nth-of-type(2) {
+    display: block;
   }
 }
 
