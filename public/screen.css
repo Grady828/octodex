@@ -65,10 +65,12 @@ article {
 }
 article ul li a img {
   border-style: none;
+  display: flex;
 }
 article ul {
   list-style: none;
   display: flex;
+
   justify-content: space-between;
   font-size: 16px;
 }
